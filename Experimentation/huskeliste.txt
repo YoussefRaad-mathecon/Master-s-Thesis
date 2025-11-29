@@ -1,0 +1,7 @@
+HUSKELISTE SPECIALE
+
+CTRL-F
+- HMM's til HMMs
+- Black-Schole model og Black Schole model -> BSM
+- Black-Schole Black Schole og -> BS
+- S -> s (fx i forward algorithm)

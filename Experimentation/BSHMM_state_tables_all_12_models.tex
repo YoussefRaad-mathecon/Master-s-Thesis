@@ -1,0 +1,343 @@
+
+> for (nm in names(latex_tables)) {
++   cat("% ------------------------------------------------------------------\n")
++   cat("%", nm, "\n")
++   cat(l .... [TRUNCATED] 
+% ------------------------------------------------------------------
+% mod2_mu 
+\begin{table}[H]
+\centering
+\begin{tabular}{lcc}
+\toprule
+Parameter & Estimate (95\% CI) & Std.\ Error \\
+\midrule
+$\widehat{\mu}_{\text{cap},1}$ & 0.0746\; (-0.1947, 0.3439) & 0.13741 \\
+$\widehat{\mu}_{\text{cap},2}$ & 0.0745\; (-0.1943, 0.3433) & 0.13715 \\
+$\widehat{q}_{1}$ & NA\; (\textemdash, \textemdash) & \textemdash \\
+$\widehat{q}_{2}$ & 0.0330\; (0.0312, 0.0348) & 0.00092 \\
+$\widehat{\mu}_{\text{tot},1}$ & NA\; (\textemdash, \textemdash) & \textemdash \\
+$\widehat{\mu}_{\text{tot},2}$ & 0.1074\; (\textemdash, \textemdash) & \textemdash \\
+$\widehat{\sigma}_{1}$ & 0.1883\; (0.1866, 0.1900) & 0.00088 \\
+$\widehat{\sigma}_{2}$ & 0.1883\; (0.1866, 0.1900) & 0.00088 \\
+\bottomrule
+\end{tabular}
+\caption{2-state BS-HMM with state-dependent drift $\mu_{\text{cap},i}$ with common volatility. State-dependent parameter estimates (annualised) with 95\% confidence intervals based on the inverse Hessian of the minimised log-likelihood on the working scale, transformed to the natural scale by the delta method. The capital-gains drift $\mu_{\text{cap},i}$ and dividend yield $q_i$ combine to give the total-return drift $\mu_{\text{tot},i} = \mu_{\text{cap},i} + q_i$ in each state. Standard errors and confidence intervals for $\mu_{\text{tot},i}$ are not reported and are indicated by dashes.}
+\label{tab:BSHMM_mod2_mu}
+\end{table} 
+
+% ------------------------------------------------------------------
+% mod3_mu 
+\begin{table}[H]
+\centering
+\begin{tabular}{lcc}
+\toprule
+Parameter & Estimate (95\% CI) & Std.\ Error \\
+\midrule
+$\widehat{\mu}_{\text{cap},1}$ & 0.0723\; (-0.3200, 0.4646) & 0.20014 \\
+$\widehat{\mu}_{\text{cap},2}$ & 0.0783\; (-0.3000, 0.4566) & 0.19300 \\
+$\widehat{\mu}_{\text{cap},3}$ & 0.0730\; (-0.3157, 0.4617) & 0.19830 \\
+$\widehat{q}_{1}$ & NA\; (\textemdash, \textemdash) & \textemdash \\
+$\widehat{q}_{2}$ & NA\; (\textemdash, \textemdash) & \textemdash \\
+$\widehat{q}_{3}$ & 0.0330\; (0.0312, 0.0348) & 0.00092 \\
+$\widehat{\mu}_{\text{tot},1}$ & NA\; (\textemdash, \textemdash) & \textemdash \\
+$\widehat{\mu}_{\text{tot},2}$ & NA\; (\textemdash, \textemdash) & \textemdash \\
+$\widehat{\mu}_{\text{tot},3}$ & 0.1060\; (\textemdash, \textemdash) & \textemdash \\
+$\widehat{\sigma}_{1}$ & 0.1883\; (0.1866, 0.1900) & 0.00088 \\
+$\widehat{\sigma}_{2}$ & 0.1883\; (0.1866, 0.1900) & 0.00088 \\
+$\widehat{\sigma}_{3}$ & 0.1883\; (0.1866, 0.1900) & 0.00088 \\
+\bottomrule
+\end{tabular}
+\caption{3-state BS-HMM with state-dependent drift $\mu_{\text{cap},i}$ with common volatility. State-dependent parameter estimates (annualised) with 95\% confidence intervals based on the inverse Hessian of the minimised log-likelihood on the working scale, transformed to the natural scale by the delta method. The capital-gains drift $\mu_{\text{cap},i}$ and dividend yield $q_i$ combine to give the total-return drift $\mu_{\text{tot},i} = \mu_{\text{cap},i} + q_i$ in each state. Standard errors and confidence intervals for $\mu_{\text{tot},i}$ are not reported and are indicated by dashes.}
+\label{tab:BSHMM_mod3_mu}
+\end{table} 
+
+% ------------------------------------------------------------------
+% mod4_mu 
+\begin{table}[H]
+\centering
+\begin{tabular}{lcc}
+\toprule
+Parameter & Estimate (95\% CI) & Std.\ Error \\
+\midrule
+$\widehat{\mu}_{\text{cap},1}$ & 0.0716\; (-0.4523, 0.5955) & 0.26728 \\
+$\widehat{\mu}_{\text{cap},2}$ & 0.0770\; (-0.4153, 0.5694) & 0.25120 \\
+$\widehat{\mu}_{\text{cap},3}$ & 0.0770\; (-0.4231, 0.5771) & 0.25516 \\
+$\widehat{\mu}_{\text{cap},4}$ & 0.0725\; (-0.4402, 0.5853) & 0.26162 \\
+$\widehat{q}_{1}$ & NA\; (\textemdash, \textemdash) & \textemdash \\
+$\widehat{q}_{2}$ & NA\; (\textemdash, \textemdash) & \textemdash \\
+$\widehat{q}_{3}$ & NA\; (\textemdash, \textemdash) & \textemdash \\
+$\widehat{q}_{4}$ & 0.0330\; (0.0312, 0.0348) & 0.00092 \\
+$\widehat{\mu}_{\text{tot},1}$ & NA\; (\textemdash, \textemdash) & \textemdash \\
+$\widehat{\mu}_{\text{tot},2}$ & NA\; (\textemdash, \textemdash) & \textemdash \\
+$\widehat{\mu}_{\text{tot},3}$ & NA\; (\textemdash, \textemdash) & \textemdash \\
+$\widehat{\mu}_{\text{tot},4}$ & 0.1055\; (\textemdash, \textemdash) & \textemdash \\
+$\widehat{\sigma}_{1}$ & 0.1883\; (0.1866, 0.1900) & 0.00088 \\
+$\widehat{\sigma}_{2}$ & 0.1883\; (0.1866, 0.1900) & 0.00088 \\
+$\widehat{\sigma}_{3}$ & 0.1883\; (0.1866, 0.1900) & 0.00088 \\
+$\widehat{\sigma}_{4}$ & 0.1883\; (0.1866, 0.1900) & 0.00088 \\
+\bottomrule
+\end{tabular}
+\caption{4-state BS-HMM with state-dependent drift $\mu_{\text{cap},i}$ with common volatility. State-dependent parameter estimates (annualised) with 95\% confidence intervals based on the inverse Hessian of the minimised log-likelihood on the working scale, transformed to the natural scale by the delta method. The capital-gains drift $\mu_{\text{cap},i}$ and dividend yield $q_i$ combine to give the total-return drift $\mu_{\text{tot},i} = \mu_{\text{cap},i} + q_i$ in each state. Standard errors and confidence intervals for $\mu_{\text{tot},i}$ are not reported and are indicated by dashes.}
+\label{tab:BSHMM_mod4_mu}
+\end{table} 
+
+% ------------------------------------------------------------------
+% mod5_mu 
+\begin{table}[H]
+\centering
+\begin{tabular}{lcc}
+\toprule
+Parameter & Estimate (95\% CI) & Std.\ Error \\
+\midrule
+$\widehat{\mu}_{\text{cap},1}$ & 0.0714\; (-0.5945, 0.7373) & 0.33974 \\
+$\widehat{\mu}_{\text{cap},2}$ & 0.0758\; (-0.5424, 0.6941) & 0.31541 \\
+$\widehat{\mu}_{\text{cap},3}$ & 0.0773\; (-0.5290, 0.6836) & 0.30934 \\
+$\widehat{\mu}_{\text{cap},4}$ & 0.0760\; (-0.5487, 0.7007) & 0.31873 \\
+$\widehat{\mu}_{\text{cap},5}$ & 0.0722\; (-0.5680, 0.7125) & 0.32667 \\
+$\widehat{q}_{1}$ & NA\; (\textemdash, \textemdash) & \textemdash \\
+$\widehat{q}_{2}$ & NA\; (\textemdash, \textemdash) & \textemdash \\
+$\widehat{q}_{3}$ & NA\; (\textemdash, \textemdash) & \textemdash \\
+$\widehat{q}_{4}$ & 0.0330\; (0.0312, 0.0348) & 0.00092 \\
+$\widehat{q}_{5}$ & NA\; (\textemdash, \textemdash) & \textemdash \\
+$\widehat{\mu}_{\text{tot},1}$ & NA\; (\textemdash, \textemdash) & \textemdash \\
+$\widehat{\mu}_{\text{tot},2}$ & NA\; (\textemdash, \textemdash) & \textemdash \\
+$\widehat{\mu}_{\text{tot},3}$ & NA\; (\textemdash, \textemdash) & \textemdash \\
+$\widehat{\mu}_{\text{tot},4}$ & 0.1089\; (\textemdash, \textemdash) & \textemdash \\
+$\widehat{\mu}_{\text{tot},5}$ & NA\; (\textemdash, \textemdash) & \textemdash \\
+$\widehat{\sigma}_{1}$ & 0.1883\; (0.1866, 0.1900) & 0.00088 \\
+$\widehat{\sigma}_{2}$ & 0.1883\; (0.1866, 0.1900) & 0.00088 \\
+$\widehat{\sigma}_{3}$ & 0.1883\; (0.1866, 0.1900) & 0.00088 \\
+$\widehat{\sigma}_{4}$ & 0.1883\; (0.1866, 0.1900) & 0.00088 \\
+$\widehat{\sigma}_{5}$ & 0.1883\; (0.1866, 0.1900) & 0.00088 \\
+\bottomrule
+\end{tabular}
+\caption{5-state BS-HMM with state-dependent drift $\mu_{\text{cap},i}$ with common volatility. State-dependent parameter estimates (annualised) with 95\% confidence intervals based on the inverse Hessian of the minimised log-likelihood on the working scale, transformed to the natural scale by the delta method. The capital-gains drift $\mu_{\text{cap},i}$ and dividend yield $q_i$ combine to give the total-return drift $\mu_{\text{tot},i} = \mu_{\text{cap},i} + q_i$ in each state. Standard errors and confidence intervals for $\mu_{\text{tot},i}$ are not reported and are indicated by dashes.}
+\label{tab:BSHMM_mod5_mu}
+\end{table} 
+
+% ------------------------------------------------------------------
+% mod2_sigma 
+\begin{table}[H]
+\centering
+\begin{tabular}{lcc}
+\toprule
+Parameter & Estimate (95\% CI) & Std.\ Error \\
+\midrule
+$\widehat{\mu}_{\text{cap},1}$ & 0.1443\; (0.1182, 0.1703) & 0.01329 \\
+$\widehat{\mu}_{\text{cap},2}$ & 0.1443\; (0.1182, 0.1703) & 0.01329 \\
+$\widehat{q}_{1}$ & 0.0323\; (0.0307, 0.0339) & 0.00083 \\
+$\widehat{q}_{2}$ & 0.0356\; (0.0318, 0.0394) & 0.00193 \\
+$\widehat{\mu}_{\text{tot},1}$ & 0.1765\; (\textemdash, \textemdash) & \textemdash \\
+$\widehat{\mu}_{\text{tot},2}$ & 0.1798\; (\textemdash, \textemdash) & \textemdash \\
+$\widehat{\sigma}_{1}$ & 0.1105\; (0.1089, 0.1122) & 0.00083 \\
+$\widehat{\sigma}_{2}$ & 0.3517\; (0.3425, 0.3609) & 0.00470 \\
+\bottomrule
+\end{tabular}
+\caption{2-state BS-HMM with state-dependent volatility $\sigma_i$ with common drift. State-dependent parameter estimates (annualised) with 95\% confidence intervals based on the inverse Hessian of the minimised log-likelihood on the working scale, transformed to the natural scale by the delta method. The capital-gains drift $\mu_{\text{cap},i}$ and dividend yield $q_i$ combine to give the total-return drift $\mu_{\text{tot},i} = \mu_{\text{cap},i} + q_i$ in each state. Standard errors and confidence intervals for $\mu_{\text{tot},i}$ are not reported and are indicated by dashes.}
+\label{tab:BSHMM_mod2_sigma}
+\end{table} 
+
+% ------------------------------------------------------------------
+% mod3_sigma 
+\begin{table}[H]
+\centering
+\begin{tabular}{lcc}
+\toprule
+Parameter & Estimate (95\% CI) & Std.\ Error \\
+\midrule
+$\widehat{\mu}_{\text{cap},1}$ & 0.1456\; (0.1215, 0.1698) & 0.01231 \\
+$\widehat{\mu}_{\text{cap},2}$ & 0.1456\; (0.1215, 0.1698) & 0.01231 \\
+$\widehat{\mu}_{\text{cap},3}$ & 0.1456\; (0.1215, 0.1698) & 0.01231 \\
+$\widehat{q}_{1}$ & 0.0315\; (0.0297, 0.0333) & 0.00091 \\
+$\widehat{q}_{2}$ & 0.0326\; (0.0305, 0.0348) & 0.00109 \\
+$\widehat{q}_{3}$ & 0.0421\; (0.0365, 0.0478) & 0.00288 \\
+$\widehat{\mu}_{\text{tot},1}$ & 0.1771\; (\textemdash, \textemdash) & \textemdash \\
+$\widehat{\mu}_{\text{tot},2}$ & 0.1783\; (\textemdash, \textemdash) & \textemdash \\
+$\widehat{\mu}_{\text{tot},3}$ & 0.1878\; (\textemdash, \textemdash) & \textemdash \\
+$\widehat{\sigma}_{1}$ & 0.0865\; (0.0843, 0.0886) & 0.00108 \\
+$\widehat{\sigma}_{2}$ & 0.1675\; (0.1629, 0.1721) & 0.00237 \\
+$\widehat{\sigma}_{3}$ & 0.4554\; (0.4388, 0.4721) & 0.00850 \\
+\bottomrule
+\end{tabular}
+\caption{3-state BS-HMM with state-dependent volatility $\sigma_i$ with common drift. State-dependent parameter estimates (annualised) with 95\% confidence intervals based on the inverse Hessian of the minimised log-likelihood on the working scale, transformed to the natural scale by the delta method. The capital-gains drift $\mu_{\text{cap},i}$ and dividend yield $q_i$ combine to give the total-return drift $\mu_{\text{tot},i} = \mu_{\text{cap},i} + q_i$ in each state. Standard errors and confidence intervals for $\mu_{\text{tot},i}$ are not reported and are indicated by dashes.}
+\label{tab:BSHMM_mod3_sigma}
+\end{table} 
+
+% ------------------------------------------------------------------
+% mod4_sigma 
+\begin{table}[H]
+\centering
+\begin{tabular}{lcc}
+\toprule
+Parameter & Estimate (95\% CI) & Std.\ Error \\
+\midrule
+$\widehat{\mu}_{\text{cap},1}$ & 0.1618\; (0.1382, 0.1854) & 0.01204 \\
+$\widehat{\mu}_{\text{cap},2}$ & 0.1618\; (0.1382, 0.1854) & 0.01204 \\
+$\widehat{\mu}_{\text{cap},3}$ & 0.1618\; (0.1382, 0.1854) & 0.01204 \\
+$\widehat{\mu}_{\text{cap},4}$ & 0.1618\; (0.1382, 0.1854) & 0.01204 \\
+$\widehat{q}_{1}$ & 0.0309\; (0.0289, 0.0330) & 0.00105 \\
+$\widehat{q}_{2}$ & 0.0308\; (0.0280, 0.0336) & 0.00141 \\
+$\widehat{q}_{3}$ & 0.0334\; (0.0315, 0.0353) & 0.00099 \\
+$\widehat{q}_{4}$ & 0.0500\; (0.0415, 0.0585) & 0.00433 \\
+$\widehat{\mu}_{\text{tot},1}$ & 0.1927\; (\textemdash, \textemdash) & \textemdash \\
+$\widehat{\mu}_{\text{tot},2}$ & 0.1926\; (\textemdash, \textemdash) & \textemdash \\
+$\widehat{\mu}_{\text{tot},3}$ & 0.1952\; (\textemdash, \textemdash) & \textemdash \\
+$\widehat{\mu}_{\text{tot},4}$ & 0.2118\; (\textemdash, \textemdash) & \textemdash \\
+$\widehat{\sigma}_{1}$ & 0.0721\; (0.0692, 0.0750) & 0.00148 \\
+$\widehat{\sigma}_{2}$ & 0.2317\; (0.2219, 0.2415) & 0.00500 \\
+$\widehat{\sigma}_{3}$ & 0.1278\; (0.1235, 0.1322) & 0.00221 \\
+$\widehat{\sigma}_{4}$ & 0.5677\; (0.5351, 0.6002) & 0.01660 \\
+\bottomrule
+\end{tabular}
+\caption{4-state BS-HMM with state-dependent volatility $\sigma_i$ with common drift. State-dependent parameter estimates (annualised) with 95\% confidence intervals based on the inverse Hessian of the minimised log-likelihood on the working scale, transformed to the natural scale by the delta method. The capital-gains drift $\mu_{\text{cap},i}$ and dividend yield $q_i$ combine to give the total-return drift $\mu_{\text{tot},i} = \mu_{\text{cap},i} + q_i$ in each state. Standard errors and confidence intervals for $\mu_{\text{tot},i}$ are not reported and are indicated by dashes.}
+\label{tab:BSHMM_mod4_sigma}
+\end{table} 
+
+% ------------------------------------------------------------------
+% mod5_sigma 
+\begin{table}[H]
+\centering
+\begin{tabular}{lcc}
+\toprule
+Parameter & Estimate (95\% CI) & Std.\ Error \\
+\midrule
+$\widehat{\mu}_{\text{cap},1}$ & 0.1578\; (0.1346, 0.1810) & 0.01184 \\
+$\widehat{\mu}_{\text{cap},2}$ & 0.1578\; (0.1346, 0.1810) & 0.01184 \\
+$\widehat{\mu}_{\text{cap},3}$ & 0.1578\; (0.1346, 0.1810) & 0.01184 \\
+$\widehat{\mu}_{\text{cap},4}$ & 0.1578\; (0.1346, 0.1810) & 0.01184 \\
+$\widehat{\mu}_{\text{cap},5}$ & 0.1578\; (0.1346, 0.1810) & 0.01184 \\
+$\widehat{q}_{1}$ & 0.0317\; (0.0298, 0.0335) & 0.00095 \\
+$\widehat{q}_{2}$ & 0.0305\; (0.0271, 0.0339) & 0.00175 \\
+$\widehat{q}_{3}$ & 0.0302\; (0.0248, 0.0356) & 0.00277 \\
+$\widehat{q}_{4}$ & 0.0330\; (0.0308, 0.0351) & 0.00111 \\
+$\widehat{q}_{5}$ & 0.0493\; (0.0410, 0.0576) & 0.00425 \\
+$\widehat{\mu}_{\text{tot},1}$ & 0.1895\; (\textemdash, \textemdash) & \textemdash \\
+$\widehat{\mu}_{\text{tot},2}$ & 0.1883\; (\textemdash, \textemdash) & \textemdash \\
+$\widehat{\mu}_{\text{tot},3}$ & 0.1880\; (\textemdash, \textemdash) & \textemdash \\
+$\widehat{\mu}_{\text{tot},4}$ & 0.1908\; (\textemdash, \textemdash) & \textemdash \\
+$\widehat{\mu}_{\text{tot},5}$ & 0.2071\; (\textemdash, \textemdash) & \textemdash \\
+$\widehat{\sigma}_{1}$ & 0.0707\; (0.0678, 0.0736) & 0.00147 \\
+$\widehat{\sigma}_{2}$ & 0.1375\; (0.1314, 0.1435) & 0.00309 \\
+$\widehat{\sigma}_{3}$ & 0.0623\; (0.0509, 0.0737) & 0.00582 \\
+$\widehat{\sigma}_{4}$ & 0.2274\; (0.2175, 0.2374) & 0.00506 \\
+$\widehat{\sigma}_{5}$ & 0.5623\; (0.5301, 0.5945) & 0.01642 \\
+\bottomrule
+\end{tabular}
+\caption{5-state BS-HMM with state-dependent volatility $\sigma_i$ with common drift. State-dependent parameter estimates (annualised) with 95\% confidence intervals based on the inverse Hessian of the minimised log-likelihood on the working scale, transformed to the natural scale by the delta method. The capital-gains drift $\mu_{\text{cap},i}$ and dividend yield $q_i$ combine to give the total-return drift $\mu_{\text{tot},i} = \mu_{\text{cap},i} + q_i$ in each state. Standard errors and confidence intervals for $\mu_{\text{tot},i}$ are not reported and are indicated by dashes.}
+\label{tab:BSHMM_mod5_sigma}
+\end{table} 
+
+% ------------------------------------------------------------------
+% mod2_mu_sigma 
+\begin{table}[H]
+\centering
+\begin{tabular}{lcc}
+\toprule
+Parameter & Estimate (95\% CI) & Std.\ Error \\
+\midrule
+$\widehat{\mu}_{\text{cap},1}$ & 0.1587\; (0.1319, 0.1854) & 0.01363 \\
+$\widehat{\mu}_{\text{cap},2}$ & -0.2431\; (-0.4030, -0.0832) & 0.08158 \\
+$\widehat{q}_{1}$ & 0.0323\; (0.0307, 0.0339) & 0.00083 \\
+$\widehat{q}_{2}$ & 0.0356\; (0.0318, 0.0394) & 0.00193 \\
+$\widehat{\mu}_{\text{tot},1}$ & 0.1909\; (\textemdash, \textemdash) & \textemdash \\
+$\widehat{\mu}_{\text{tot},2}$ & -0.2075\; (\textemdash, \textemdash) & \textemdash \\
+$\widehat{\sigma}_{1}$ & 0.1104\; (0.1088, 0.1120) & 0.00083 \\
+$\widehat{\sigma}_{2}$ & 0.3502\; (0.3410, 0.3593) & 0.00466 \\
+\bottomrule
+\end{tabular}
+\caption{2-state BS-HMM with state-dependent drift $\mu_{\text{cap},i}$ and volatility $\sigma_i$. State-dependent parameter estimates (annualised) with 95\% confidence intervals based on the inverse Hessian of the minimised log-likelihood on the working scale, transformed to the natural scale by the delta method. The capital-gains drift $\mu_{\text{cap},i}$ and dividend yield $q_i$ combine to give the total-return drift $\mu_{\text{tot},i} = \mu_{\text{cap},i} + q_i$ in each state. Standard errors and confidence intervals for $\mu_{\text{tot},i}$ are not reported and are indicated by dashes.}
+\label{tab:BSHMM_mod2_mu_sigma}
+\end{table} 
+
+% ------------------------------------------------------------------
+% mod3_mu_sigma 
+\begin{table}[H]
+\centering
+\begin{tabular}{lcc}
+\toprule
+Parameter & Estimate (95\% CI) & Std.\ Error \\
+\midrule
+$\widehat{\mu}_{\text{cap},1}$ & 0.1824\; (0.1533, 0.2116) & 0.01486 \\
+$\widehat{\mu}_{\text{cap},2}$ & 0.0425\; (-0.0155, 0.1004) & 0.02956 \\
+$\widehat{\mu}_{\text{cap},3}$ & -0.3245\; (-0.6299, -0.0190) & 0.15583 \\
+$\widehat{q}_{1}$ & 0.0315\; (0.0298, 0.0333) & 0.00091 \\
+$\widehat{q}_{2}$ & 0.0326\; (0.0304, 0.0347) & 0.00109 \\
+$\widehat{q}_{3}$ & 0.0421\; (0.0364, 0.0478) & 0.00289 \\
+$\widehat{\mu}_{\text{tot},1}$ & 0.2140\; (\textemdash, \textemdash) & \textemdash \\
+$\widehat{\mu}_{\text{tot},2}$ & 0.0750\; (\textemdash, \textemdash) & \textemdash \\
+$\widehat{\mu}_{\text{tot},3}$ & -0.2824\; (\textemdash, \textemdash) & \textemdash \\
+$\widehat{\sigma}_{1}$ & 0.0862\; (0.0840, 0.0883) & 0.00110 \\
+$\widehat{\sigma}_{2}$ & 0.1675\; (0.1628, 0.1722) & 0.00239 \\
+$\widehat{\sigma}_{3}$ & 0.4543\; (0.4376, 0.4710) & 0.00850 \\
+\bottomrule
+\end{tabular}
+\caption{3-state BS-HMM with state-dependent drift $\mu_{\text{cap},i}$ and volatility $\sigma_i$. State-dependent parameter estimates (annualised) with 95\% confidence intervals based on the inverse Hessian of the minimised log-likelihood on the working scale, transformed to the natural scale by the delta method. The capital-gains drift $\mu_{\text{cap},i}$ and dividend yield $q_i$ combine to give the total-return drift $\mu_{\text{tot},i} = \mu_{\text{cap},i} + q_i$ in each state. Standard errors and confidence intervals for $\mu_{\text{tot},i}$ are not reported and are indicated by dashes.}
+\label{tab:BSHMM_mod3_mu_sigma}
+\end{table} 
+
+% ------------------------------------------------------------------
+% mod4_mu_sigma 
+\begin{table}[H]
+\centering
+\begin{tabular}{lcc}
+\toprule
+Parameter & Estimate (95\% CI) & Std.\ Error \\
+\midrule
+$\widehat{\mu}_{\text{cap},1}$ & 0.2346\; (0.1990, 0.2703) & 0.01820 \\
+$\widehat{\mu}_{\text{cap},2}$ & 0.1062\; (0.0621, 0.1502) & 0.02246 \\
+$\widehat{\mu}_{\text{cap},3}$ & -0.1031\; (-0.2193, 0.0132) & 0.05930 \\
+$\widehat{\mu}_{\text{cap},4}$ & -0.3818\; (-0.9260, 0.1623) & 0.27763 \\
+$\widehat{q}_{1}$ & 0.0306\; (0.0286, 0.0327) & 0.00104 \\
+$\widehat{q}_{2}$ & 0.0336\; (0.0316, 0.0355) & 0.00099 \\
+$\widehat{q}_{3}$ & 0.0306\; (0.0279, 0.0333) & 0.00139 \\
+$\widehat{q}_{4}$ & 0.0498\; (0.0413, 0.0583) & 0.00432 \\
+$\widehat{\mu}_{\text{tot},1}$ & 0.2653\; (\textemdash, \textemdash) & \textemdash \\
+$\widehat{\mu}_{\text{tot},2}$ & 0.1398\; (\textemdash, \textemdash) & \textemdash \\
+$\widehat{\mu}_{\text{tot},3}$ & -0.0725\; (\textemdash, \textemdash) & \textemdash \\
+$\widehat{\mu}_{\text{tot},4}$ & -0.3320\; (\textemdash, \textemdash) & \textemdash \\
+$\widehat{\sigma}_{1}$ & 0.0707\; (0.0680, 0.0734) & 0.00139 \\
+$\widehat{\sigma}_{2}$ & 0.1270\; (0.1229, 0.1311) & 0.00210 \\
+$\widehat{\sigma}_{3}$ & 0.2301\; (0.2205, 0.2396) & 0.00487 \\
+$\widehat{\sigma}_{4}$ & 0.5651\; (0.5329, 0.5974) & 0.01646 \\
+\bottomrule
+\end{tabular}
+\caption{4-state BS-HMM with state-dependent drift $\mu_{\text{cap},i}$ and volatility $\sigma_i$. State-dependent parameter estimates (annualised) with 95\% confidence intervals based on the inverse Hessian of the minimised log-likelihood on the working scale, transformed to the natural scale by the delta method. The capital-gains drift $\mu_{\text{cap},i}$ and dividend yield $q_i$ combine to give the total-return drift $\mu_{\text{tot},i} = \mu_{\text{cap},i} + q_i$ in each state. Standard errors and confidence intervals for $\mu_{\text{tot},i}$ are not reported and are indicated by dashes.}
+\label{tab:BSHMM_mod4_mu_sigma}
+\end{table} 
+
+% ------------------------------------------------------------------
+% mod5_mu_sigma 
+\begin{table}[H]
+\centering
+\begin{tabular}{lcc}
+\toprule
+Parameter & Estimate (95\% CI) & Std.\ Error \\
+\midrule
+$\widehat{\mu}_{\text{cap},1}$ & 0.2181\; (0.1833, 0.2529) & 0.01777 \\
+$\widehat{\mu}_{\text{cap},2}$ & 0.6049\; (0.4268, 0.7831) & 0.09089 \\
+$\widehat{\mu}_{\text{cap},3}$ & -1.3869\; (-1.7642, -1.0097) & 0.19247 \\
+$\widehat{\mu}_{\text{cap},4}$ & -0.0672\; (-0.1861, 0.0518) & 0.06068 \\
+$\widehat{\mu}_{\text{cap},5}$ & -0.3986\; (-0.9461, 0.1488) & 0.27930 \\
+$\widehat{q}_{1}$ & 0.0311\; (0.0291, 0.0331) & 0.00101 \\
+$\widehat{q}_{2}$ & 0.0340\; (0.0317, 0.0364) & 0.00121 \\
+$\widehat{q}_{3}$ & 0.0350\; (0.0311, 0.0388) & 0.00196 \\
+$\widehat{q}_{4}$ & 0.0318\; (0.0294, 0.0341) & 0.00118 \\
+$\widehat{q}_{5}$ & 0.0498\; (0.0413, 0.0583) & 0.00434 \\
+$\widehat{\mu}_{\text{tot},1}$ & 0.2492\; (\textemdash, \textemdash) & \textemdash \\
+$\widehat{\mu}_{\text{tot},2}$ & 0.6390\; (\textemdash, \textemdash) & \textemdash \\
+$\widehat{\mu}_{\text{tot},3}$ & -1.3520\; (\textemdash, \textemdash) & \textemdash \\
+$\widehat{\mu}_{\text{tot},4}$ & -0.0354\; (\textemdash, \textemdash) & \textemdash \\
+$\widehat{\mu}_{\text{tot},5}$ & -0.3489\; (\textemdash, \textemdash) & \textemdash \\
+$\widehat{\sigma}_{1}$ & 0.0702\; (0.0676, 0.0729) & 0.00136 \\
+$\widehat{\sigma}_{2}$ & 0.1156\; (0.1111, 0.1202) & 0.00233 \\
+$\widehat{\sigma}_{3}$ & 0.1186\; (0.1103, 0.1270) & 0.00425 \\
+$\widehat{\sigma}_{4}$ & 0.2314\; (0.2218, 0.2410) & 0.00489 \\
+$\widehat{\sigma}_{5}$ & 0.5665\; (0.5340, 0.5990) & 0.01659 \\
+\bottomrule
+\end{tabular}
+\caption{5-state BS-HMM with state-dependent drift $\mu_{\text{cap},i}$ and volatility $\sigma_i$. State-dependent parameter estimates (annualised) with 95\% confidence intervals based on the inverse Hessian of the minimised log-likelihood on the working scale, transformed to the natural scale by the delta method. The capital-gains drift $\mu_{\text{cap},i}$ and dividend yield $q_i$ combine to give the total-return drift $\mu_{\text{tot},i} = \mu_{\text{cap},i} + q_i$ in each state. Standard errors and confidence intervals for $\mu_{\text{tot},i}$ are not reported and are indicated by dashes.}
+\label{tab:BSHMM_mod5_mu_sigma}
+\end{table} 
+
+
+> sink()
