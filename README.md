@@ -4,9 +4,11 @@
 This Master's thesis explores extensions to the Black-Scholes option pricing model as a frequent critique of said model is it lack of adaptivity to economical turbulent environments. The extensions are via continuous and discrete state-space models often called Markov regime-switching models. The analysis is done using S\&P 500 price data and total return data.
 
 **Practical Information**
-- Author: Youssef Raad
-- Supervisor: Rolf Poulsen
-- Date: 22<sup>th</sup> December 2025
+- **Author**: Youssef Raad
+- **Supervisor**: Rolf Poulsen
+- **University**: University of Copenhagen
+- **Department**: Mathmematical Science
+- **Date**: 22<sup>th</sup> December 2025
 
 ## Repository Structure
 ```
