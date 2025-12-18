@@ -18,11 +18,7 @@ This Master's thesis explores extensions to the Black-Scholes option pricing mod
 │   └── SP500DataGeneratorPython.py
 ├── CodeR/                              
 │   ├── players.json
-│   ├── events_England.json
-│   ├── events_France.json
-│   ├── events_Germany.json
-│   ├── events_Italy.json
-│   └── events_Spain.json
+│   └── 
 ├── DataFramesExcel/                                
 │   ├── sp500_clean_with_divs.csv
 │   ├── sp500_clean_with_divs_1927_2019.csv
