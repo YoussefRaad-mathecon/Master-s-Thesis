@@ -8,7 +8,7 @@ This Master's thesis explores extensions to the Black-Scholes option pricing mod
 - **Supervisor**: Rolf Poulsen
 - **University**: University of Copenhagen
 - **Department**: Mathmematical Science
-- **Date**: 22<sup>th</sup> December 2025
+- **Date**: 22<sup>nd</sup> December 2025
 
 ## Repository Structure
 ```
