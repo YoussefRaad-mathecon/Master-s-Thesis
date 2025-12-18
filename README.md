@@ -6,7 +6,7 @@ This Master's thesis explores extensions to the Black-Scholes option pricing mod
 **Practical Information**
 - Author: Youssef Raad
 - Supervisor: Rolf Poulsen
-- Date: 22<sup>th<sup>December 2025
+- Date: 22<sup>th</sup> December 2025
 
 ## Repository Structure
 ```
