@@ -1,29 +1,41 @@
-TEST CODE DO NOT CONSIDER
+# Master's Thesis: The Black-Scholes Option Pricing Model - A Markov-Switching Extension
 
+## Overview
+This Master's thesis explores extensions to the Black-Scholes option pricing model as a frequent critique of said model is it lack of adaptivity to economical turbulent environments. The extensions are via continuous and discrete state-space models often called Markov regime-switching models. The analysis is done using S\&P 500 data.
+
+
+## Repository Structure
 ```
 ├── README.md                          
-├── data/                              
+├── CodePython/                              
+│   ├── DividendsPython.py
+│   └── SP500DataGeneratorPython.py
+├── CodeR/                              
 │   ├── players.json
 │   ├── events_England.json
 │   ├── events_France.json
 │   ├── events_Germany.json
 │   ├── events_Italy.json
 │   └── events_Spain.json
-├── R/                                 # R scripts and functions
-│   ├── Get shots.R                   # Function to extract shot data
-│   └── Get shots extra.R             # Extended shot data extraction
-├── analysis/                          # Analysis R Markdown files
-│   ├── Load rawdata.Rmd          # Data loading and preprocessing
-│   ├── Exploratory analysis.Rmd   # EDA and feature engineering
-│   ├── Fit models.Rmd            # Main model fitting (GBM & GLM)
-│   ├── Fit models big.Rmd        # Extended model with more features
-│   ├── Fit right footed models.Rmd
-│   ├── Fit left footed models.Rmd
-│   ├── Evaluate models.Rmd        # Main model evaluation
-│   ├── Evaluate models big.Rmd
-│   ├── Evaluate right footed models.Rmd
-│   ├── Evaluate left footed models.Rmd
-│   ├── Calculations.Rmd           # xG calculations by counter-attack
-│   ├── Hypothesis test.Rmd        # Statistical tests
-│   └── Mixture models analysis.Rmd # Distribution fitting
+├── DataFramesExcel/                                
+│   ├── sp500_clean_with_divs.csv
+│   ├── sp500_clean_with_divs_1927_2019.csv
+│   ├── sp500_clean_with_divs_FULL.csv
+│   ├── sp500_dividend_daily_MATCHED_to_gspc.csv
+│   ├── sp500_dividend_daily_backfilled.csv
+│   ├── sp500_yahoo_daily_full.csv
+│   ├── statewise_dividend_yields_4and5state_with_SEs.csv          
+│   └── statewise_dividend_yields_with_SEs.csv
+├── DataFramesR/                         
+│   ├── BSSSM_loglik_comparison.RData        
+│   ├── fitted_params_BSHMM_2019.RData 
+│   ├── fitted_params_BSSSM_2019.RData          
+│   ├── fitted_params_BSSSM_2019_beta.RData      
+│   ├── fitted_params_BSSSM_2019_test.RData
+│   ├── fitted_params_BSSSM_grid_2019.RData
+│   ├── fitted_params_BSSSM_grid_2019_beta.RData     
+│   ├── fitted_params_BS_2019.RData
+│   ├── sp500_clean_with_divs.RData
+│   ├── sp500_clean_with_divs_1927_2019.RData
+│   └── sp500_clean_with_divs_FULL.RData
 ```
