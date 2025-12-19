@@ -18,8 +18,37 @@ This section illustrates the structure of code (in `Python` and `R`) and datafra
 │   ├── DividendsPython.py
 │   └── SP500DataGeneratorPython.py
 ├── CodeR/                              
-│   ├── players.json
-│   └── 
+│   ├── AICBIC.R
+│   ├── AICBICBSHMM.R
+│   ├── AICBICBSSSM.R
+│   ├── BSHMMPredictionInterval.R
+│   ├── BSMPredictionInterval.R
+│   ├── BSSSMBetaPredictionInterval.R
+│   ├── DataR.R
+│   ├── DividendsR.R
+│   ├── DividendStatewise.R
+│   ├── FittingBSHMM.R
+│   ├── FittingBSM.R
+│   ├── FittingBSMResidualsStandardErrors.R
+│   ├── FittingBSSSM.R
+│   ├── FittingBSSSMBeta.R
+│   ├── FittingBSSSMRobustness.R
+│   ├── FittingBSSSMRobustnessBeta.R
+│   ├── NumberOfParameters.R
+│   ├── PlottingBSM.R
+│   ├── PlottingStateDependentDistributionsBSHMM.R
+│   ├── PseudoResidualsBSHMM.R
+│   ├── PseudoResidualsBSSSM.R
+│   ├── PseudoResidualsBSSSMBeta.R
+│   ├── SimulationStudyBS.R
+│   ├── SimulationStudyBSHMM.R
+│   ├── SimulationStudyBSSSM.R
+│   ├── SimulationStudyBSSSMBeta.R
+│   ├── StandardErrorsBSHMM.R
+│   ├── StandardErrorsBSSSM.R
+│   ├── StandardErrorsBSSSMBeta.R
+│   ├── ViterbiBSSSMBeta.R
+│   └── ViterbiHMM.R
 ├── DataFramesExcel/                                
 │   ├── sp500_clean_with_divs.csv
 │   ├── sp500_clean_with_divs_1927_2019.csv
