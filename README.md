@@ -11,6 +11,7 @@ This Master's thesis explores extensions to the Black-Scholes option pricing mod
 - **Date**: 22<sup>nd</sup> December 2025
 
 ## Repository Structure
+This section illustrates the structure of code (in `Python` and `R`) and dataframes (in `Excel` and `R`). 
 ```
 ├── README.md                          
 ├── CodePython/                              
