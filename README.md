@@ -54,7 +54,9 @@ This section illustrates the structure of code (in `Python` and `R`) and datafra
 │   ├── StandardErrorsBSHMM.R
 │   ├── StandardErrorsBSSSM.R
 │   ├── StandardErrorsBSSSMBeta.R
+│   ├── ViterbiBSHMMPrediction.R
 │   ├── ViterbiBSSSMBeta.R
+│   ├── ViterbiBSSSMBetaPrediction.R
 │   └── ViterbiHMM.R
 ├── DataFramesExcel/                                
 │   ├── sp500_clean_with_divs.csv
