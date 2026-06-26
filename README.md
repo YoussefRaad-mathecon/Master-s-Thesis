@@ -18,17 +18,11 @@ Using daily S\&P 500 data from 1927 to 2025, the models are calibrated via Maxim
 Despite the richer descriptive power and improved in-sample fit, out-of-sample evaluation on a hold-out period (2020--2025) indicates that the regime-switching extensions offer negligible gains in one-step-ahead point forecasting accuracy (MSE and RMSE) relative to the constant-parameter BSM. While the extended models produce more realistic, horizon-dependent forecast densities, the findings suggest that the added complexity of latent state inference does not translate into superior short-term predictive power for point forecasts.
 
 
-<p align="center">
-  <video controls style="width: 600px; max-width: 100%; height: auto;">
+<div align="center">
+  <video controls style="max-width: 650px; width: 100%; aspect-ratio: 16 / 9;">
     <source src="https://github.com/user-attachments/assets/be29b6a6-c7f9-4583-a6d2-eb1c4eac3768" type="video/mp4">
   </video>
-</p>
-
-<p align="center">
-  <a href="https://github.com/user-attachments/assets/be29b6a6-c7f9-4583-a6d2-eb1c4eac3768">
-    <img src="https://github.com/user-attachments/assets/YOUR_THUMBNAIL.png" width="600">
-  </a>
-</p>
+</div>
 
 ## Repository Structure
 This section illustrates the structure of code (in `Python` and `R`) and dataframes (in `Excel` and `R`). The total number of files is 55.
