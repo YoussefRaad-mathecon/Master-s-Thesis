@@ -1,3 +1,7 @@
+
+
+https://github.com/user-attachments/assets/dcd5db59-ff0e-4507-9695-0942526a2343
+
 # Master's Thesis: The Black-Scholes Option Pricing Model - A Markov-Switching Extension
 
 ## Overview
