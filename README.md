@@ -24,6 +24,12 @@ Despite the richer descriptive power and improved in-sample fit, out-of-sample e
   </video>
 </p>
 
+<p align="center">
+  <a href="https://github.com/user-attachments/assets/be29b6a6-c7f9-4583-a6d2-eb1c4eac3768">
+    <img src="https://github.com/user-attachments/assets/YOUR_THUMBNAIL.png" width="600">
+  </a>
+</p>
+
 ## Repository Structure
 This section illustrates the structure of code (in `Python` and `R`) and dataframes (in `Excel` and `R`). The total number of files is 55.
 ```
