@@ -20,27 +20,15 @@ The Black-Scholes model (BSM) has long been a cornerstone of financial theory; h
 Using daily S\&P 500 data from 1927 to 2025, the models are calibrated via Maximum Likelihood Estimation. In-sample analysis reveals that the extended models, particularly a 4-state BS-HMM and a factor-loaded continuous state-space model ($\text{BS-SSM}_{\beta}$), provide a superior fit to historical data compared to the static BSM. These models successfully identify distinct market phases, distinguishing between tranquil bull markets and high-volatility crisis regimes, such as the 1929 Crash and the 2008 Financial Crisis.
 
 Despite the richer descriptive power and improved in-sample fit, out-of-sample evaluation on a hold-out period (2020--2025) indicates that the regime-switching extensions offer negligible gains in one-step-ahead point forecasting accuracy (MSE and RMSE) relative to the constant-parameter BSM. While the extended models produce more realistic, horizon-dependent forecast densities, the findings suggest that the added complexity of latent state inference does not translate into superior short-term predictive power for point forecasts.
+<video controls width="800">
+  <source src="https://github.com/user-attachments/assets/be29b6a6-c7f9-4583-a6d2-eb1c4eac3768" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ## Repository Structure
 This section illustrates the structure of code (in `Python` and `R`) and dataframes (in `Excel` and `R`). The total number of files is 55.
 ```
 ├── README.md                          
-
-https://github.com/user-attachments/assets/be29b6a6-c7f9-4583-a6d2-eb1c4eac3768
-
-
-
-https://github.com/user-attachments/assets/fe8ada11-6333-470b-87f6-8797b7d2c42a
-
-
-
-https://github.com/user-attachments/assets/622f3809-5e98-4d67-a176-288bb3cc0995
-
-
-
-https://github.com/user-attachments/assets/2a0bc301-40d5-4e24-aa7d-b2afb70134de
-
-
 ├── CodePython/                              
 │   ├── DividendsPython.py
 │   └── SP500DataGeneratorPython.py
